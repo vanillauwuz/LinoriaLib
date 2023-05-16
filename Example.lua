@@ -31,7 +31,7 @@ local LeftGroupBox = Tabs.Main:AddLeftGroupbox('Groupbox')
 local RightGroupBox = Tabs.Main:AddRightGroupbox('Groupbox')
 
 -- Tabboxes are a tiny bit different, but here's a basic example:
---[[
+
 
 local TabBox = Tabs.Main:AddLeftTabbox() -- Add Tabbox on left side
 
@@ -39,7 +39,7 @@ local Tab1 = TabBox:AddTab('Tab 1')
 local Tab2 = TabBox:AddTab('Tab 2')
 
 -- You can now call AddToggle, etc on the tabs you added to the Tabbox
-]]
+
 
 -- Groupbox:AddToggle
 -- Arguments: Index, Options
